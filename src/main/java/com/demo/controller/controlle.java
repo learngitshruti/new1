@@ -18,6 +18,7 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class controlle  {
 
+	//commiut
 	@Autowired
 	private RestTemplate resttemplate;
 	
