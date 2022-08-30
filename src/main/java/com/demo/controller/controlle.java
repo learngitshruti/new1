@@ -18,7 +18,6 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class controlle  {
 
-	//commiut
 	@Autowired
 	private RestTemplate resttemplate;
 	
@@ -37,7 +36,7 @@ public class controlle  {
 	
 	@RequestMapping(value="/hi")
 	public String sayhi() {
-		System.out.println("hi");
+		System.out.println("hishruti");
 		return "hello";
 	}
 	
